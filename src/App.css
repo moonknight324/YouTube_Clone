@@ -1,0 +1,252 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: rgb(153, 138, 138);
+}
+
+.position{
+    position: fixed;
+}
+
+/* nevbar */
+
+nav,
+.nav-1,
+.nav-2,
+.nav-3 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #0E0F0E;
+}
+
+
+.youtube-logo {
+    height: 30px;
+    background-color: rgb(26, 25, 25);
+    color: black;
+}
+
+.youtube-text {
+    position: relative;
+    bottom: 3px;
+    left: 2px;
+    color: white;
+    font-weight: 400;
+    font-size: 26px;
+}
+
+.in-div {
+    position: relative;
+    bottom: 12px;
+    left: 3px;
+    font-size: 10px;
+    color: aliceblue;
+}
+
+.search-bar {
+    background-color: transparent;
+    border: 1px solid #222323;
+    width: 550px;
+    height: 40px;
+    padding-left: 15px;
+    border-radius: 20px 0 0 20px;
+    outline: none;
+    color: rgb(255, 255, 255);
+}
+
+
+.search-icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 60px;
+    height: 40px;
+    border-radius: 0 20px 20px 0;
+    background-color: #222323;
+
+}
+
+.round{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 20px;
+    border-radius: 50%;
+    height: 40px;
+    width: 40px;
+    color: white;
+}
+
+.round:hover{
+    background-color: #222323;
+    border: 1px solid #222323;
+    cursor: pointer;
+}
+
+.hamburger {
+    position: relative;
+    top: 5px;
+    
+}
+
+.icons {
+    width: 20px;
+    height: 20px;
+    color: aliceblue;
+}
+
+.icon1 {
+    margin: 10px 20px 20px;
+}
+
+.microphone {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 20px;
+    background-color: #222323;
+    border: 1px solid #222323;
+    border-radius: 50%;
+    height: 40px;
+    width: 40px;
+}
+
+.microphone:hover{
+    background-color:#3D3D3D;
+    cursor: pointer;
+}
+
+.bell{
+    position: relative;
+    left:8px ;
+}
+
+.bell-span {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    bottom: 6px;
+    right: 11px;
+    background-color: #CC0000;
+    border-radius: 45%;
+    width: 20px;
+    height: 15px;
+    font-size: 10px;
+    color: aliceblue;
+}
+
+.flex {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+.profile-image {
+    position: relative;
+    right: 10px;
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    background-color: #AA47BC;
+}
+
+.b {
+    color: aliceblue;
+    font-size: 20px;
+}
+
+/* SideBar css  */
+.sideBar{
+    color: white;
+    background-color: #0E0F0E;
+    height: 100vh;
+    width: 15vw;
+}
+
+.sidebarIcons{
+    width: 22px;
+    height: 22px;
+    color: aliceblue;
+}
+
+.sideBC{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 0 10px 0 10px;
+    height: 40px;
+    margin:5px 0 0 10px;
+    width: 11vw;
+    /* border:2px solid #CC0000 */
+}
+
+.sideBC:hover{
+    background-color: #262627;
+    border-radius: 10px;
+}
+
+.sidebarIconName{
+    margin-left: 30px;
+}
+
+.sidebarIconName p{
+    font-size: 15px;
+}
+
+.line{
+    height: 1px;
+    width: 90%;
+    background-color:#8B8A8A;
+}
+
+/* categories css */
+
+.category-section {
+    position: relative;
+    background-color: #0E0F0E;
+    height: 50px;
+    width: 85vw;
+    /* Adjust the maximum width as needed */
+    margin: 0 auto;
+    overflow: hidden;
+    
+}
+
+.flex1{
+    display: flex;
+}
+
+.category-container {
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+}
+
+.category {
+    flex: 0 0 auto;
+    box-sizing: border-box;
+    padding: 10px;
+    /* Border color */
+    margin: 0 5px;
+}
+
+.scroll-button {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    color: #fff;
+    border: none;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.left {
+    left: 10px;
+}
+
+.right {
+    right: 10px;
+}
