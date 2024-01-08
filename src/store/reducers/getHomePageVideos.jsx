@@ -3,7 +3,7 @@ import { createAsyncThunk } from "@reduxjs/toolkit";
 import axios from "axios";
 import parseData from "../../utils/parseData";
 
-const API_KEY = "AIzaSyBqtmhD0OD9rvs3hksMJIWV7Hqj9p4Aob0";
+const API_KEY = "AIzaSyACY7BFlnp6XUGnW6JWAhnFS9DLOAVtDRs";
 // const API_KEY = process.env.VITE_APP_YOUTUBE_API_KEY;
 
 export const getHomePageVideos = createAsyncThunk(

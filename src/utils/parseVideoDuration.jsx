@@ -1,7 +1,7 @@
 export const parseVideoDuration = (duration) => {
-    console.log(duration);
-    return (
-<>
-</>
-    );
-}
+  console.log(duration);
+
+//   const durationParts = duration.replace("");
+
+  return <></>;
+};
